@@ -287,4 +287,4 @@ MindForge Studio 已提供“按 Agent 提取价值句”的总结器。
 
 ## 📄 License
 
-MIT (or your preferred license)
+MIT
