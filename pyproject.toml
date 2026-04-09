@@ -1,0 +1,31 @@
+[project]
+name = "mindforge-studio"
+version = "0.1.0"
+description = "Dynamic celebrity multi-agent studio: retrieval, distillation, debate, synthesis."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pydantic>=2.8.2",
+  "requests>=2.32.3",
+  "typer>=0.12.3",
+  "rich>=13.7.1",
+  "openai>=1.58.1",
+  "fastapi>=0.115.0",
+  "uvicorn>=0.32.0",
+]
+
+[project.scripts]
+mindforge-studio = "celebrity_studio.cli:main"
+mindforge-studio-api = "celebrity_studio.api_server:main"
+celebrity-studio = "celebrity_studio.cli:main"
+celebrity-studio-api = "celebrity_studio.api_server:main"
+
+[build-system]
+requires = ["setuptools>=68.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

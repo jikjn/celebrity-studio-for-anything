@@ -1,0 +1,369 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MindForge Studio Console</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/cytoscape@3.28.1/dist/cytoscape.min.js"></script>
+  <style>
+    :root {
+      --bg-0: #f3f6f4;
+      --bg-1: #ffffff;
+      --bg-2: #ecf1ee;
+      --ink-0: #112015;
+      --ink-1: #314537;
+      --line: #c8d7cf;
+      --accent: #0f8f67;
+      --accent-2: #e47b3c;
+      --danger: #b44343;
+      --shadow: 0 8px 28px rgba(18, 46, 33, 0.12);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Space Grotesk", sans-serif;
+      color: var(--ink-0);
+      background:
+        radial-gradient(circle at 16% 8%, rgba(15, 143, 103, 0.16), transparent 32%),
+        radial-gradient(circle at 88% 12%, rgba(228, 123, 60, 0.13), transparent 34%),
+        linear-gradient(170deg, #f9fbfa 0%, #eef3f0 48%, #e8efeb 100%);
+      min-height: 100vh;
+    }
+
+    .wrap {
+      width: min(1260px, calc(100% - 48px));
+      margin: 28px auto 64px auto;
+      display: grid;
+      grid-template-columns: 460px 1fr;
+      gap: 20px;
+    }
+
+    .panel {
+      background: var(--bg-1);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .panel-head {
+      padding: 14px 16px;
+      background: linear-gradient(100deg, #0f8f67, #138f74 42%, #1f8a86 100%);
+      color: #fff;
+      font-weight: 700;
+      letter-spacing: 0.2px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .panel-body { padding: 14px 16px 16px 16px; }
+
+    .field { margin-bottom: 10px; }
+    .field label {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--ink-1);
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 10px 11px;
+      font-family: inherit;
+      font-size: 14px;
+      outline: none;
+      background: #fcfefd;
+      color: var(--ink-0);
+    }
+
+    textarea { min-height: 116px; resize: vertical; }
+
+    input:focus, textarea:focus, select:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(15, 143, 103, 0.16);
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .provider-card {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      margin-bottom: 10px;
+      background: linear-gradient(180deg, #fbfefd 0%, #f3f8f5 100%);
+      padding: 9px;
+    }
+
+    .btn-bar { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+
+    .btn {
+      border: none;
+      border-radius: 10px;
+      padding: 10px 14px;
+      cursor: pointer;
+      font-family: inherit;
+      font-weight: 700;
+      letter-spacing: 0.1px;
+    }
+
+    .btn-primary { background: var(--accent); color: #fff; }
+    .btn-alt { background: #eff4f1; color: var(--ink-1); }
+    .btn-danger { background: #fff2f2; color: var(--danger); border: 1px solid #f1d0d0; }
+    .btn:hover { filter: brightness(0.97); }
+
+    .status {
+      font-size: 13px;
+      padding: 8px 10px;
+      border-radius: 9px;
+      margin-top: 12px;
+      background: var(--bg-2);
+      color: var(--ink-1);
+    }
+
+    .status.error { background: #fff1ef; color: #8f3d31; }
+    .status.ok { background: #e6f8f0; color: #156047; }
+
+    .result-layout {
+      display: grid;
+      grid-template-rows: auto auto 360px 1fr;
+      gap: 12px;
+    }
+
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+
+    .chip {
+      padding: 7px 11px;
+      border-radius: 999px;
+      font-size: 12px;
+      background: #ebf7f2;
+      border: 1px solid #cfe9de;
+      color: #135741;
+    }
+
+    .section {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 10px 12px;
+      background: #fdfefd;
+    }
+
+    .section h3 {
+      margin: 2px 0 8px 0;
+      font-size: 14px;
+      color: var(--ink-1);
+    }
+
+    .section ul {
+      margin: 0;
+      padding-left: 16px;
+    }
+
+    .section li { margin: 4px 0; font-size: 13px; }
+
+    #challengeGraph {
+      width: 100%;
+      height: 340px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: linear-gradient(170deg, #f8fcfa, #edf4f0);
+    }
+
+    #timeline {
+      max-height: 340px;
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fdfefd;
+      padding: 8px;
+    }
+
+    .msg {
+      border: 1px solid #d8e4dd;
+      border-radius: 10px;
+      padding: 8px 10px;
+      margin-bottom: 7px;
+      background: #fff;
+    }
+
+    .msg .meta {
+      font-size: 11px;
+      color: #466356;
+      margin-bottom: 4px;
+    }
+
+    .msg .content {
+      font-size: 13px;
+      line-height: 1.45;
+      white-space: pre-wrap;
+    }
+
+    @media (max-width: 1080px) {
+      .wrap {
+        grid-template-columns: 1fr;
+        width: min(100%, calc(100% - 20px));
+      }
+      .result-layout { grid-template-rows: auto auto 280px 1fr; }
+      #challengeGraph { height: 260px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="panel">
+      <div class="panel-head">
+        <span>Studio Config</span>
+        <button class="btn btn-alt" id="fillDemo">Fill Demo Prompt</button>
+      </div>
+      <div class="panel-body">
+        <div class="field">
+          <label for="query">User Scenario</label>
+          <textarea id="query" placeholder="Describe the scenario and expected output"></textarea>
+        </div>
+
+        <div class="row">
+          <div class="field">
+            <label for="teamSize">Agent Count (optional)</label>
+            <input id="teamSize" type="number" min="4" max="8" placeholder="Auto if empty">
+          </div>
+          <div class="field">
+            <label for="languageHint">Language Hint</label>
+            <input id="languageHint" value="zh-CN">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="field">
+            <label for="selectionMode">Selection Mode</label>
+            <select id="selectionMode">
+              <option value="auto" selected>auto</option>
+              <option value="prefer">prefer (bias to include list)</option>
+              <option value="strict">strict (lock include list)</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="assignmentStrategy">Assignment Strategy</label>
+            <select id="assignmentStrategy">
+              <option value="round_robin" selected>round_robin</option>
+              <option value="default_only">default_only</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="field">
+            <label for="minTurnsPerMember">Min Turns Per Member</label>
+            <input id="minTurnsPerMember" type="number" min="1" max="12" value="5">
+          </div>
+          <div class="field">
+            <label for="turnLength">Turn Length</label>
+            <select id="turnLength">
+              <option value="brief">brief</option>
+              <option value="standard">standard</option>
+              <option value="long" selected>long</option>
+              <option value="extended">extended</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="interactionStyle">Interaction Style</label>
+          <textarea id="interactionStyle" style="min-height:72px;" placeholder="Free-salon style instruction (optional)">像同桌沙龙一样自由交流，允许质疑、支持、反驳、补充，不走模板话术，优先真实观点碰撞。</textarea>
+        </div>
+
+        <div class="field">
+          <label for="includeCelebrities">Include Celebrities (comma-separated)</label>
+          <input id="includeCelebrities" placeholder="Jay Chou, James Wong, Wong Kar-wai">
+        </div>
+
+        <div class="field">
+          <label for="excludeCelebrities">Exclude Celebrities (comma-separated)</label>
+          <input id="excludeCelebrities" placeholder="Donald Trump, Winston Churchill">
+        </div>
+
+        <div class="row">
+          <div class="field">
+            <label for="strictOnline">Strict Online</label>
+            <select id="strictOnline">
+              <option value="true" selected>true</option>
+              <option value="false">false</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="realtimeDistill">Realtime Distill</label>
+            <select id="realtimeDistill">
+              <option value="true" selected>true</option>
+              <option value="false">false</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="field">
+            <label for="defaultProviderId">Default Provider ID</label>
+            <input id="defaultProviderId" placeholder="default">
+          </div>
+          <div class="field">
+            <label for="leaderProviderId">Leader Provider ID (optional)</label>
+            <input id="leaderProviderId" placeholder="Use default if empty">
+          </div>
+        </div>
+
+        <div class="field">
+          <label>Provider List (multi-API)</label>
+          <div id="providers"></div>
+          <div class="btn-bar">
+            <button class="btn btn-alt" id="addProvider">+ Add Provider</button>
+            <button class="btn btn-alt" id="useCodexPreset">Load Codex CLI Preset</button>
+          </div>
+        </div>
+
+        <div class="btn-bar">
+          <button class="btn btn-primary" id="runBtn">Run Studio</button>
+        </div>
+        <div class="status" id="statusBox">Waiting to run</div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <span>Studio Output</span>
+        <span id="scenarioId">N/A</span>
+      </div>
+      <div class="panel-body result-layout">
+        <div class="section">
+          <h3>Selected Agents</h3>
+          <div class="chips" id="selectedChips"></div>
+        </div>
+
+        <div class="section">
+          <h3>Synthesis</h3>
+          <div id="synthesis"></div>
+        </div>
+
+        <div>
+          <h3 style="margin: 2px 0 8px 0; color: var(--ink-1);">Interaction Graph</h3>
+          <div id="challengeGraph"></div>
+        </div>
+
+        <div>
+          <h3 style="margin: 2px 0 8px 0; color: var(--ink-1);">Message Timeline</h3>
+          <div id="timeline"></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="/static/main.js"></script>
+</body>
+</html>

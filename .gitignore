@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+outputs/
+data/celebrities/distilled_skills/*/profile.json
+data/celebrities/distilled_skills/*/sources.json
+data/celebrities/distilled_skills/*/validation.json
+_initial_plan.docx
+external/ClawTeam/
+external/nuwa-skill/
