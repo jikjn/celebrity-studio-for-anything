@@ -58,7 +58,7 @@ MindForge Studio 是一个“多角色自由沙龙”系统。
 - [🏗️ Architecture](#️-architecture)
 - [📂 Output Structure](#-output-structure)
 - [❓ FAQ](#-faq)
-## ?? Acknowledgements
+## Acknowledgements
 
 - [nuwa-skill](https://github.com/alchaincyf/nuwa-skill): we reused ideas and assets for skill distillation.
 - [ClawTeam](https://github.com/HKUDS/ClawTeam): the inter-agent collaboration strategy in this project is inspired by its coordination patterns.
@@ -71,8 +71,6 @@ MindForge Studio 是一个“多角色自由沙龙”系统。
 ---
 
 ## 🖼️ Preview
-
-> 建议你后续在这里放真实截图或 GIF，这会让 README 更像成熟 GitHub 项目。
 
 ### Web UI
 ```text
