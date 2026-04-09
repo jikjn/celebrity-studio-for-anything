@@ -1,0 +1,54 @@
+{
+  "scenario_id": "scenario-20260409-031622",
+  "leader": "studio-leader",
+  "members": [
+    {
+      "agent_id": "agent-01-村上春树",
+      "celebrity_name": "村上春树",
+      "skill_slug": "村上春树",
+      "role_in_studio": "Humanist: 现代孤独与亲密边界",
+      "speaking_style": "Direct and structured",
+      "challenge_style": "Target assumptions, feasibility, and user-fit before agreeing.",
+      "provider_id": "default",
+      "session_id": "村上春树-agent-01-村上春树"
+    },
+    {
+      "agent_id": "agent-02-王阳明",
+      "celebrity_name": "王阳明",
+      "skill_slug": "王阳明",
+      "role_in_studio": "Cultural Spine: 知行合一的关系伦理",
+      "speaking_style": "Direct and structured",
+      "challenge_style": "Target assumptions, feasibility, and user-fit before agreeing.",
+      "provider_id": "default",
+      "session_id": "王阳明-agent-02-王阳明"
+    },
+    {
+      "agent_id": "agent-03-张爱玲",
+      "celebrity_name": "张爱玲",
+      "skill_slug": "张爱玲",
+      "role_in_studio": "Critic: 亲密关系中的权力与人性",
+      "speaking_style": "Direct and structured",
+      "challenge_style": "Target assumptions, feasibility, and user-fit before agreeing.",
+      "provider_id": "default",
+      "session_id": "张爱玲-agent-03-张爱玲"
+    },
+    {
+      "agent_id": "agent-04-巴菲特",
+      "celebrity_name": "巴菲特",
+      "skill_slug": "巴菲特",
+      "role_in_studio": "Realist: 长期主义与婚恋风险管理",
+      "speaking_style": "Direct and structured",
+      "challenge_style": "Target assumptions, feasibility, and user-fit before agreeing.",
+      "provider_id": "default",
+      "session_id": "巴菲特-agent-04-巴菲特"
+    }
+  ],
+  "reserve_members": [],
+  "discussion_protocol": "Free-salon dynamic exchange. Style hint: 像同桌沙龙一样自由交流，允许质疑、支持、反驳、补充，不走模板话术，优先真实观点碰撞。",
+  "max_rounds": 6,
+  "stop_conditions": [
+    "Open Studio Field stages completed with at least one free-salon round.",
+    "Emerging centers were surfaced before convergence.",
+    "At least one conditional recommendation route is generated."
+  ]
+}

@@ -1,0 +1,313 @@
+[
+  {
+    "name": "Marc Lore",
+    "name_native": null,
+    "wikidata_id": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Marc_Lore",
+    "description": "American entrepreneur (born 1971). Marc Eric Lore is an American entrepreneur, businessman, and investor. Lore is founder, chairman, and CEO of the Wonder Group. From 2016 to 2021, he was the president and CEO of Wa",
+    "era": "modern",
+    "region": "global",
+    "domains": [
+      "American entrepreneur (born 1971)"
+    ],
+    "verified_human": true,
+    "fit_score": 0.03033333333333335,
+    "anti_fit_penalty": 0.16,
+    "final_score": 0.03033333333333335,
+    "fit_reasons": [
+      "Semantic overlap with scenario tags.",
+      "Has enough public footprint for distillation."
+    ],
+    "anti_fit_reasons": [
+      "Domain mismatch risk is non-trivial for this scenario."
+    ],
+    "controversy_risk": 0.3,
+    "distillability_score": 0.45,
+    "evidence_availability": 0.38,
+    "complementarity_tags": []
+  },
+  {
+    "name": "姚明",
+    "name_native": null,
+    "wikidata_id": null,
+    "wikipedia_url": null,
+    "description": "中国篮球代表人物，经历职业竞技、伤病管理与退役后体育治理。",
+    "era": "modern",
+    "region": "global",
+    "domains": [
+      "strategy",
+      "general",
+      "sports"
+    ],
+    "verified_human": true,
+    "fit_score": 0.5900000000000001,
+    "anti_fit_penalty": 0.0,
+    "final_score": 0.7556,
+    "fit_reasons": [
+      "LLM dynamic fallback candidate.",
+      "LLM API ranking marked this candidate as high relevance."
+    ],
+    "anti_fit_reasons": [],
+    "controversy_risk": 0.35,
+    "distillability_score": 0.4,
+    "evidence_availability": 0.35,
+    "complementarity_tags": []
+  },
+  {
+    "name": "苏炳添",
+    "name_native": null,
+    "wikidata_id": null,
+    "wikipedia_url": null,
+    "description": "中国短跑名将，强调科学训练、技术细节和学业并行。",
+    "era": "modern",
+    "region": "global",
+    "domains": [
+      "strategy",
+      "general",
+      "sports"
+    ],
+    "verified_human": true,
+    "fit_score": 0.5900000000000001,
+    "anti_fit_penalty": 0.0,
+    "final_score": 0.7592000000000001,
+    "fit_reasons": [
+      "LLM dynamic fallback candidate.",
+      "LLM API ranking marked this candidate as high relevance."
+    ],
+    "anti_fit_reasons": [],
+    "controversy_risk": 0.35,
+    "distillability_score": 0.4,
+    "evidence_availability": 0.35,
+    "complementarity_tags": []
+  },
+  {
+    "name": "郎平",
+    "name_native": null,
+    "wikidata_id": null,
+    "wikipedia_url": null,
+    "description": "世界级排球教练与前运动员，擅长长期培养和团队管理。",
+    "era": "modern",
+    "region": "global",
+    "domains": [
+      "strategy",
+      "general",
+      "sports"
+    ],
+    "verified_human": true,
+    "fit_score": 0.5900000000000001,
+    "anti_fit_penalty": 0.0,
+    "final_score": 0.7538,
+    "fit_reasons": [
+      "LLM dynamic fallback candidate.",
+      "LLM API ranking marked this candidate as high relevance."
+    ],
+    "anti_fit_reasons": [
+      "Lower cognitive coverage gain than selected members."
+    ],
+    "controversy_risk": 0.35,
+    "distillability_score": 0.4,
+    "evidence_availability": 0.35,
+    "complementarity_tags": []
+  },
+  {
+    "name": "邓亚萍",
+    "name_native": null,
+    "wikidata_id": null,
+    "wikipedia_url": null,
+    "description": "乒乓球奥运冠军，来自普通家庭背景，退役后持续深造。",
+    "era": "modern",
+    "region": "global",
+    "domains": [
+      "strategy",
+      "general",
+      "sports",
+      "education"
+    ],
+    "verified_human": true,
+    "fit_score": 0.5983333333333334,
+    "anti_fit_penalty": 0.0,
+    "final_score": 0.7711333333333333,
+    "fit_reasons": [
+      "LLM dynamic fallback candidate.",
+      "LLM API ranking marked this candidate as high relevance."
+    ],
+    "anti_fit_reasons": [],
+    "controversy_risk": 0.35,
+    "distillability_score": 0.4,
+    "evidence_availability": 0.35,
+    "complementarity_tags": []
+  },
+  {
+    "name": "李宁",
+    "name_native": null,
+    "wikidata_id": null,
+    "wikipedia_url": null,
+    "description": "体操奥运冠军、企业家，完成从运动员到商业经营者的转型。",
+    "era": "modern",
+    "region": "global",
+    "domains": [
+      "strategy",
+      "general",
+      "sports",
+      "business"
+    ],
+    "verified_human": true,
+    "fit_score": 0.5983333333333334,
+    "anti_fit_penalty": 0.0,
+    "final_score": 0.7477333333333334,
+    "fit_reasons": [
+      "LLM dynamic fallback candidate.",
+      "LLM API ranking marked this candidate as high relevance."
+    ],
+    "anti_fit_reasons": [],
+    "controversy_risk": 0.35,
+    "distillability_score": 0.4,
+    "evidence_availability": 0.35,
+    "complementarity_tags": []
+  },
+  {
+    "name": "沃伦·巴菲特",
+    "name_native": null,
+    "wikidata_id": null,
+    "wikipedia_url": null,
+    "description": "长期价值投资代表人物，强调复利、纪律与风险边界。",
+    "era": "modern",
+    "region": "global",
+    "domains": [
+      "strategy",
+      "general",
+      "finance"
+    ],
+    "verified_human": true,
+    "fit_score": 0.5900000000000001,
+    "anti_fit_penalty": 0.0,
+    "final_score": 0.7466,
+    "fit_reasons": [
+      "LLM dynamic fallback candidate.",
+      "LLM API ranking marked this candidate as high relevance."
+    ],
+    "anti_fit_reasons": [
+      "Lower cognitive coverage gain than selected members."
+    ],
+    "controversy_risk": 0.35,
+    "distillability_score": 0.4,
+    "evidence_availability": 0.35,
+    "complementarity_tags": []
+  },
+  {
+    "name": "瑞·达利欧",
+    "name_native": null,
+    "wikidata_id": null,
+    "wikipedia_url": null,
+    "description": "桥水基金创始人，提出风险平衡与宏观分散配置方法。",
+    "era": "modern",
+    "region": "global",
+    "domains": [
+      "strategy",
+      "general",
+      "finance"
+    ],
+    "verified_human": true,
+    "fit_score": 0.5900000000000001,
+    "anti_fit_penalty": 0.0,
+    "final_score": 0.7412000000000001,
+    "fit_reasons": [
+      "LLM dynamic fallback candidate.",
+      "LLM API ranking marked this candidate as high relevance."
+    ],
+    "anti_fit_reasons": [
+      "Lower cognitive coverage gain than selected members."
+    ],
+    "controversy_risk": 0.35,
+    "distillability_score": 0.4,
+    "evidence_availability": 0.35,
+    "complementarity_tags": []
+  },
+  {
+    "name": "约翰·博格尔",
+    "name_native": null,
+    "wikidata_id": null,
+    "wikipedia_url": null,
+    "description": "指数基金倡导者，强调低成本、长期持有与市场平均收益。",
+    "era": "modern",
+    "region": "global",
+    "domains": [
+      "strategy",
+      "general",
+      "finance"
+    ],
+    "verified_human": true,
+    "fit_score": 0.5900000000000001,
+    "anti_fit_penalty": 0.0,
+    "final_score": 0.7448000000000001,
+    "fit_reasons": [
+      "LLM dynamic fallback candidate.",
+      "LLM API ranking marked this candidate as high relevance."
+    ],
+    "anti_fit_reasons": [
+      "Lower cognitive coverage gain than selected members."
+    ],
+    "controversy_risk": 0.35,
+    "distillability_score": 0.4,
+    "evidence_availability": 0.35,
+    "complementarity_tags": []
+  },
+  {
+    "name": "科比·布莱恩特",
+    "name_native": null,
+    "wikidata_id": null,
+    "wikipedia_url": null,
+    "description": "NBA传奇球星，以高强度训练、自律与竞争心态著称。",
+    "era": "modern",
+    "region": "global",
+    "domains": [
+      "strategy",
+      "general",
+      "sports",
+      "psychology"
+    ],
+    "verified_human": true,
+    "fit_score": 0.5983333333333334,
+    "anti_fit_penalty": 0.0,
+    "final_score": 0.5983333333333334,
+    "fit_reasons": [
+      "LLM dynamic fallback candidate."
+    ],
+    "anti_fit_reasons": [
+      "Lower cognitive coverage gain than selected members."
+    ],
+    "controversy_risk": 0.35,
+    "distillability_score": 0.4,
+    "evidence_availability": 0.35,
+    "complementarity_tags": []
+  },
+  {
+    "name": "迈克尔·菲尔普斯",
+    "name_native": null,
+    "wikidata_id": null,
+    "wikipedia_url": null,
+    "description": "奥运游泳冠军，公开分享训练周期、恢复管理与心理健康经验。",
+    "era": "modern",
+    "region": "global",
+    "domains": [
+      "strategy",
+      "general",
+      "sports",
+      "health"
+    ],
+    "verified_human": true,
+    "fit_score": 0.5983333333333334,
+    "anti_fit_penalty": 0.0,
+    "final_score": 0.5983333333333334,
+    "fit_reasons": [
+      "LLM dynamic fallback candidate."
+    ],
+    "anti_fit_reasons": [
+      "Lower cognitive coverage gain than selected members."
+    ],
+    "controversy_risk": 0.35,
+    "distillability_score": 0.4,
+    "evidence_availability": 0.35,
+    "complementarity_tags": []
+  }
+]

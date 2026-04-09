@@ -1,0 +1,494 @@
+{
+  "selected": [
+    {
+      "name": "李宁",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "体操奥运冠军、企业家，完成从运动员到商业经营者的转型。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "strategy",
+        "general",
+        "sports",
+        "business"
+      ],
+      "verified_human": true,
+      "fit_score": 0.5983333333333334,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.7477333333333334,
+      "fit_reasons": [
+        "LLM dynamic fallback candidate.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [],
+      "controversy_risk": 0.35,
+      "distillability_score": 0.4,
+      "evidence_availability": 0.35,
+      "complementarity_tags": []
+    },
+    {
+      "name": "邓亚萍",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "乒乓球奥运冠军，来自普通家庭背景，退役后持续深造。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "strategy",
+        "general",
+        "sports",
+        "education"
+      ],
+      "verified_human": true,
+      "fit_score": 0.5983333333333334,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.7711333333333333,
+      "fit_reasons": [
+        "LLM dynamic fallback candidate.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [],
+      "controversy_risk": 0.35,
+      "distillability_score": 0.4,
+      "evidence_availability": 0.35,
+      "complementarity_tags": []
+    },
+    {
+      "name": "谷爱凌",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "自由式滑雪运动员，兼顾竞技成绩与教育发展。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "学业与体育双轨发展",
+        "strategy",
+        "general",
+        "dual_path"
+      ],
+      "verified_human": true,
+      "fit_score": 0.6053333333333334,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.7637333333333334,
+      "fit_reasons": [
+        "LLM API retrieval suggested this figure for this scenario.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [],
+      "controversy_risk": 0.32,
+      "distillability_score": 0.42,
+      "evidence_availability": 0.36,
+      "complementarity_tags": []
+    },
+    {
+      "name": "张桂梅",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "教育公益代表人物，长期帮助欠发达地区学生改变命运。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "资源稀缺环境下的上升路径",
+        "strategy",
+        "general",
+        "education"
+      ],
+      "verified_human": true,
+      "fit_score": 0.6053333333333334,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.7673333333333334,
+      "fit_reasons": [
+        "LLM API retrieval suggested this figure for this scenario.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [],
+      "controversy_risk": 0.32,
+      "distillability_score": 0.42,
+      "evidence_availability": 0.36,
+      "complementarity_tags": []
+    },
+    {
+      "name": "苏炳添",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "中国短跑名将，强调科学训练、技术细节和学业并行。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "strategy",
+        "general",
+        "sports"
+      ],
+      "verified_human": true,
+      "fit_score": 0.5900000000000001,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.7592000000000001,
+      "fit_reasons": [
+        "LLM dynamic fallback candidate.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [],
+      "controversy_risk": 0.35,
+      "distillability_score": 0.4,
+      "evidence_availability": 0.35,
+      "complementarity_tags": []
+    },
+    {
+      "name": "姚明",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "中国篮球代表人物，经历职业竞技、伤病管理与退役后体育治理。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "strategy",
+        "general",
+        "sports"
+      ],
+      "verified_human": true,
+      "fit_score": 0.5900000000000001,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.7556,
+      "fit_reasons": [
+        "LLM dynamic fallback candidate.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [],
+      "controversy_risk": 0.35,
+      "distillability_score": 0.4,
+      "evidence_availability": 0.35,
+      "complementarity_tags": []
+    }
+  ],
+  "rejected": [
+    {
+      "name": "郎平",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "世界级排球教练与前运动员，擅长长期培养和团队管理。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "strategy",
+        "general",
+        "sports"
+      ],
+      "verified_human": true,
+      "fit_score": 0.5900000000000001,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.7538,
+      "fit_reasons": [
+        "LLM dynamic fallback candidate.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [
+        "Lower cognitive coverage gain than selected members."
+      ],
+      "controversy_risk": 0.35,
+      "distillability_score": 0.4,
+      "evidence_availability": 0.35,
+      "complementarity_tags": []
+    },
+    {
+      "name": "穆里尼奥",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "世界知名足球教练，擅长资源约束下的竞争策略。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "现实约束下的策略优化",
+        "strategy",
+        "general",
+        "competition"
+      ],
+      "verified_human": true,
+      "fit_score": 0.6053333333333334,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.7511333333333334,
+      "fit_reasons": [
+        "LLM API retrieval suggested this figure for this scenario.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [
+        "Lower cognitive coverage gain than selected members."
+      ],
+      "controversy_risk": 0.32,
+      "distillability_score": 0.42,
+      "evidence_availability": 0.36,
+      "complementarity_tags": []
+    },
+    {
+      "name": "沃伦·巴菲特",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "长期价值投资代表人物，强调复利、纪律与风险边界。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "strategy",
+        "general",
+        "finance"
+      ],
+      "verified_human": true,
+      "fit_score": 0.5900000000000001,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.7466,
+      "fit_reasons": [
+        "LLM dynamic fallback candidate.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [
+        "Lower cognitive coverage gain than selected members."
+      ],
+      "controversy_risk": 0.35,
+      "distillability_score": 0.4,
+      "evidence_availability": 0.35,
+      "complementarity_tags": []
+    },
+    {
+      "name": "彼得·林奇",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "前富达明星基金经理，强调可理解领域的投资。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "能力圈与成长识别",
+        "strategy",
+        "general",
+        "equity"
+      ],
+      "verified_human": true,
+      "fit_score": 0.6053333333333334,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.7457333333333334,
+      "fit_reasons": [
+        "LLM API retrieval suggested this figure for this scenario.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [
+        "Lower cognitive coverage gain than selected members."
+      ],
+      "controversy_risk": 0.32,
+      "distillability_score": 0.42,
+      "evidence_availability": 0.36,
+      "complementarity_tags": []
+    },
+    {
+      "name": "约翰·博格尔",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "指数基金倡导者，强调低成本、长期持有与市场平均收益。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "strategy",
+        "general",
+        "finance"
+      ],
+      "verified_human": true,
+      "fit_score": 0.5900000000000001,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.7448000000000001,
+      "fit_reasons": [
+        "LLM dynamic fallback candidate.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [
+        "Lower cognitive coverage gain than selected members."
+      ],
+      "controversy_risk": 0.35,
+      "distillability_score": 0.4,
+      "evidence_availability": 0.35,
+      "complementarity_tags": []
+    },
+    {
+      "name": "瑞·达利欧",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "桥水基金创始人，提出风险平衡与宏观分散配置方法。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "strategy",
+        "general",
+        "finance"
+      ],
+      "verified_human": true,
+      "fit_score": 0.5900000000000001,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.7412000000000001,
+      "fit_reasons": [
+        "LLM dynamic fallback candidate.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [
+        "Lower cognitive coverage gain than selected members."
+      ],
+      "controversy_risk": 0.35,
+      "distillability_score": 0.4,
+      "evidence_availability": 0.35,
+      "complementarity_tags": []
+    },
+    {
+      "name": "约翰·博格",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "Vanguard创始人，指数化、低费率投资倡导者。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "低成本指数策略",
+        "strategy",
+        "general",
+        "indexing"
+      ],
+      "verified_human": true,
+      "fit_score": 0.6053333333333334,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.6053333333333334,
+      "fit_reasons": [
+        "LLM API retrieval suggested this figure for this scenario."
+      ],
+      "anti_fit_reasons": [
+        "Lower cognitive coverage gain than selected members."
+      ],
+      "controversy_risk": 0.32,
+      "distillability_score": 0.42,
+      "evidence_availability": 0.36,
+      "complementarity_tags": []
+    },
+    {
+      "name": "科比·布莱恩特",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "NBA传奇球星，以高强度训练、自律与竞争心态著称。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "strategy",
+        "general",
+        "sports",
+        "psychology"
+      ],
+      "verified_human": true,
+      "fit_score": 0.5983333333333334,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.5983333333333334,
+      "fit_reasons": [
+        "LLM dynamic fallback candidate."
+      ],
+      "anti_fit_reasons": [
+        "Lower cognitive coverage gain than selected members."
+      ],
+      "controversy_risk": 0.35,
+      "distillability_score": 0.4,
+      "evidence_availability": 0.35,
+      "complementarity_tags": []
+    },
+    {
+      "name": "迈克尔·菲尔普斯",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "奥运游泳冠军，公开分享训练周期、恢复管理与心理健康经验。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "strategy",
+        "general",
+        "sports",
+        "health"
+      ],
+      "verified_human": true,
+      "fit_score": 0.5983333333333334,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.5983333333333334,
+      "fit_reasons": [
+        "LLM dynamic fallback candidate."
+      ],
+      "anti_fit_reasons": [
+        "Lower cognitive coverage gain than selected members."
+      ],
+      "controversy_risk": 0.35,
+      "distillability_score": 0.4,
+      "evidence_availability": 0.35,
+      "complementarity_tags": []
+    },
+    {
+      "name": "Marc Lore",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Marc_Lore",
+      "description": "American entrepreneur (born 1971). Marc Eric Lore is an American entrepreneur, businessman, and investor. Lore is founder, chairman, and CEO of the Wonder Group. From 2016 to 2021, he was the president and CEO of Wa",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "American entrepreneur (born 1971)"
+      ],
+      "verified_human": true,
+      "fit_score": 0.03033333333333335,
+      "anti_fit_penalty": 0.16,
+      "final_score": 0.03033333333333335,
+      "fit_reasons": [
+        "Semantic overlap with scenario tags.",
+        "Has enough public footprint for distillation."
+      ],
+      "anti_fit_reasons": [
+        "Domain mismatch risk is non-trivial for this scenario."
+      ],
+      "controversy_risk": 0.3,
+      "distillability_score": 0.45,
+      "evidence_availability": 0.38,
+      "complementarity_tags": []
+    }
+  ],
+  "selection_rationale": [
+    "Selection optimized cognitive coverage + complementarity + conflict productivity.",
+    "Anti-popularity bias applied when fit scores were already adequate.",
+    "Thematic fit remained a hard prerequisite before diversity bonuses.",
+    "LLM retrieval injected 5 additional scenario-relevant candidate(s).",
+    "LLM API ranking rationale: 邓亚萍: 来自普通家庭并走到顶尖竞技与持续深造，最贴合贫困地区学生的长期上升路径设计。 | 苏炳添: 强调技术细节、训练科学化和学业并行，适合把有限资源投向高回报训练环节。 | 姚明: 覆盖从青训到职业化再到退役转型，能帮助做体育生涯全周期配置。",
+    "No explicit user include list: enforced minimum 4 members across at least 4 cognitive aspects when possible."
+  ],
+  "coverage_map": {
+    "thematic-fit": [
+      "李宁",
+      "邓亚萍"
+    ],
+    "execution": [
+      "李宁",
+      "邓亚萍"
+    ],
+    "risk": [
+      "李宁",
+      "邓亚萍"
+    ],
+    "long-term-value": [
+      "李宁",
+      "邓亚萍"
+    ],
+    "ethics": [
+      "李宁",
+      "邓亚萍"
+    ]
+  },
+  "requested_team_size": 6,
+  "actual_team_size": 6
+}

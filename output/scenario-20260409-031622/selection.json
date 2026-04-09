@@ -1,0 +1,141 @@
+{
+  "selected": [
+    {
+      "name": "村上春树",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "User-specified candidate for scenario-specific cognitive coverage.",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "custom-include"
+      ],
+      "verified_human": true,
+      "fit_score": 0.11433333333333331,
+      "anti_fit_penalty": 0.16,
+      "final_score": 0.29433333333333334,
+      "fit_reasons": [
+        "User-specified include candidate.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [
+        "Domain mismatch risk is non-trivial for this scenario."
+      ],
+      "controversy_risk": 0.3,
+      "distillability_score": 0.48,
+      "evidence_availability": 0.4,
+      "complementarity_tags": []
+    },
+    {
+      "name": "王阳明",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "User-specified candidate for scenario-specific cognitive coverage.",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "custom-include"
+      ],
+      "verified_human": true,
+      "fit_score": 0.11433333333333331,
+      "anti_fit_penalty": 0.16,
+      "final_score": 0.29433333333333334,
+      "fit_reasons": [
+        "User-specified include candidate.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [
+        "Domain mismatch risk is non-trivial for this scenario."
+      ],
+      "controversy_risk": 0.3,
+      "distillability_score": 0.48,
+      "evidence_availability": 0.4,
+      "complementarity_tags": []
+    },
+    {
+      "name": "张爱玲",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "User-specified candidate for scenario-specific cognitive coverage.",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "custom-include"
+      ],
+      "verified_human": true,
+      "fit_score": 0.11433333333333331,
+      "anti_fit_penalty": 0.16,
+      "final_score": 0.29433333333333334,
+      "fit_reasons": [
+        "User-specified include candidate.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [
+        "Domain mismatch risk is non-trivial for this scenario."
+      ],
+      "controversy_risk": 0.3,
+      "distillability_score": 0.48,
+      "evidence_availability": 0.4,
+      "complementarity_tags": []
+    },
+    {
+      "name": "巴菲特",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "User-specified candidate for scenario-specific cognitive coverage.",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "custom-include"
+      ],
+      "verified_human": true,
+      "fit_score": 0.03933333333333333,
+      "anti_fit_penalty": 0.16,
+      "final_score": 0.21933333333333332,
+      "fit_reasons": [
+        "User-specified include candidate.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [
+        "Domain mismatch risk is non-trivial for this scenario."
+      ],
+      "controversy_risk": 0.3,
+      "distillability_score": 0.48,
+      "evidence_availability": 0.4,
+      "complementarity_tags": []
+    }
+  ],
+  "rejected": [],
+  "selection_rationale": [
+    "Strict mode: selection locked to user-specified celebrities.",
+    "Ranking used only to order and trim inside the locked set."
+  ],
+  "coverage_map": {
+    "thematic-fit": [
+      "村上春树",
+      "王阳明"
+    ],
+    "execution": [
+      "村上春树",
+      "王阳明"
+    ],
+    "risk": [
+      "村上春树",
+      "王阳明"
+    ],
+    "long-term-value": [
+      "村上春树",
+      "王阳明"
+    ],
+    "ethics": [
+      "村上春树",
+      "王阳明"
+    ]
+  },
+  "requested_team_size": 4,
+  "actual_team_size": 4
+}

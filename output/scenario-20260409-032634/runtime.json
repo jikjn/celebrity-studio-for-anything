@@ -1,0 +1,25 @@
+{
+  "providers": [
+    {
+      "provider_id": "default",
+      "provider_type": "codex_cli",
+      "model": "gpt-5.3-codex",
+      "api_key": "",
+      "base_url": "",
+      "temperature": 0.3,
+      "timeout_s": 300,
+      "extra_headers": {}
+    }
+  ],
+  "default_provider_id": "default",
+  "leader_provider_id": "default",
+  "assignment_strategy": "round_robin",
+  "realtime_distill": true,
+  "strict_online": true,
+  "discussion": {
+    "mode": "free_salon",
+    "min_turns_per_member": 5,
+    "turn_length": "long",
+    "interaction_style": "像同桌沙龙一样自由交流，允许质疑、支持、反驳、补充，不走模板话术，优先真实观点碰撞。"
+  }
+}

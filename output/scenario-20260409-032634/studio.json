@@ -1,0 +1,105 @@
+{
+  "scenario_id": "scenario-20260409-032634",
+  "leader": "studio-leader",
+  "members": [
+    {
+      "agent_id": "agent-01-李宁",
+      "celebrity_name": "李宁",
+      "skill_slug": "李宁",
+      "role_in_studio": "Operator: Athletic Career Pathways",
+      "speaking_style": "Direct and structured",
+      "challenge_style": "Target assumptions, feasibility, and user-fit before agreeing.",
+      "provider_id": "default",
+      "session_id": "李宁-agent-01-李宁"
+    },
+    {
+      "agent_id": "agent-02-邓亚萍",
+      "celebrity_name": "邓亚萍",
+      "skill_slug": "邓亚萍",
+      "role_in_studio": "Humanist: Grassroots Athlete Equity",
+      "speaking_style": "Direct and structured",
+      "challenge_style": "Target assumptions, feasibility, and user-fit before agreeing.",
+      "provider_id": "default",
+      "session_id": "邓亚萍-agent-02-邓亚萍"
+    },
+    {
+      "agent_id": "agent-03-谷爱凌",
+      "celebrity_name": "谷爱凌",
+      "skill_slug": "谷爱凌",
+      "role_in_studio": "Visionary: Global Sports-Education Trajectory",
+      "speaking_style": "Direct and structured",
+      "challenge_style": "Target assumptions, feasibility, and user-fit before agreeing.",
+      "provider_id": "default",
+      "session_id": "谷爱凌-agent-03-谷爱凌"
+    },
+    {
+      "agent_id": "agent-04-张桂梅",
+      "celebrity_name": "张桂梅",
+      "skill_slug": "张桂梅",
+      "role_in_studio": "Cultural Spine: Education-First Ethics",
+      "speaking_style": "Direct and structured",
+      "challenge_style": "Target assumptions, feasibility, and user-fit before agreeing.",
+      "provider_id": "default",
+      "session_id": "张桂梅-agent-04-张桂梅"
+    },
+    {
+      "agent_id": "agent-05-苏炳添",
+      "celebrity_name": "苏炳添",
+      "skill_slug": "苏炳添",
+      "role_in_studio": "Systems Thinker: Training and Performance Pipeline",
+      "speaking_style": "Direct and structured",
+      "challenge_style": "Target assumptions, feasibility, and user-fit before agreeing.",
+      "provider_id": "default",
+      "session_id": "苏炳添-agent-05-苏炳添"
+    },
+    {
+      "agent_id": "agent-06-姚明",
+      "celebrity_name": "姚明",
+      "skill_slug": "姚明",
+      "role_in_studio": "Realist: Institutional Sports Development",
+      "speaking_style": "Direct and structured",
+      "challenge_style": "Target assumptions, feasibility, and user-fit before agreeing.",
+      "provider_id": "default",
+      "session_id": "姚明-agent-06-姚明"
+    }
+  ],
+  "reserve_members": [
+    {
+      "agent_id": "reserve-01-郎平",
+      "celebrity_name": "郎平",
+      "skill_slug": "郎平",
+      "role_in_studio": "Reserve Perspective",
+      "speaking_style": "Concise analytical",
+      "challenge_style": "Focus on anti-fit and edge cases",
+      "provider_id": "default",
+      "session_id": ""
+    },
+    {
+      "agent_id": "reserve-02-穆里尼奥",
+      "celebrity_name": "穆里尼奥",
+      "skill_slug": "穆里尼奥",
+      "role_in_studio": "Reserve Perspective",
+      "speaking_style": "Concise analytical",
+      "challenge_style": "Focus on anti-fit and edge cases",
+      "provider_id": "default",
+      "session_id": ""
+    },
+    {
+      "agent_id": "reserve-03-沃伦-巴菲特",
+      "celebrity_name": "沃伦·巴菲特",
+      "skill_slug": "沃伦-巴菲特",
+      "role_in_studio": "Reserve Perspective",
+      "speaking_style": "Concise analytical",
+      "challenge_style": "Focus on anti-fit and edge cases",
+      "provider_id": "default",
+      "session_id": ""
+    }
+  ],
+  "discussion_protocol": "Free-salon dynamic exchange. Style hint: 像同桌沙龙一样自由交流，允许质疑、支持、反驳、补充，不走模板话术，优先真实观点碰撞。",
+  "max_rounds": 6,
+  "stop_conditions": [
+    "Open Studio Field stages completed with at least one free-salon round.",
+    "Emerging centers were surfaced before convergence.",
+    "At least one conditional recommendation route is generated."
+  ]
+}

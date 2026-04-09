@@ -1,0 +1,539 @@
+{
+  "selected": [
+    {
+      "name": "麦浚龙",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "香港歌手、音乐人、导演，擅长概念化与暗黑叙事的粤语作品。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "赛博叙事化粤语流行",
+        "music",
+        "culture_fusion",
+        "film"
+      ],
+      "verified_human": true,
+      "fit_score": 0.6803333333333333,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.8603333333333334,
+      "fit_reasons": [
+        "LLM API retrieval suggested this figure for this scenario.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [],
+      "controversy_risk": 0.32,
+      "distillability_score": 0.42,
+      "evidence_availability": 0.36,
+      "complementarity_tags": []
+    },
+    {
+      "name": "张叔平",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "香港美术与造型设计师，擅长东方元素的现代重构。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "东方未来造型系统",
+        "fashion",
+        "film",
+        "culture_fusion"
+      ],
+      "verified_human": true,
+      "fit_score": 0.48033333333333333,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.6603333333333333,
+      "fit_reasons": [
+        "LLM API retrieval suggested this figure for this scenario.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [],
+      "controversy_risk": 0.32,
+      "distillability_score": 0.42,
+      "evidence_availability": 0.36,
+      "complementarity_tags": []
+    },
+    {
+      "name": "黄霑",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "香港词曲人，兼具古典意境与现代流行表达。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "中国风粤语歌词母体",
+        "music",
+        "culture_fusion",
+        "lyrics"
+      ],
+      "verified_human": true,
+      "fit_score": 0.6803333333333333,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.8603333333333334,
+      "fit_reasons": [
+        "LLM API retrieval suggested this figure for this scenario.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [],
+      "controversy_risk": 0.32,
+      "distillability_score": 0.42,
+      "evidence_availability": 0.36,
+      "complementarity_tags": []
+    },
+    {
+      "name": "谭盾",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "中国作曲家，常把民族器乐与当代电子/交响语汇融合。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "传统器乐现代化编曲",
+        "music",
+        "culture_fusion",
+        "composition"
+      ],
+      "verified_human": true,
+      "fit_score": 0.6803333333333333,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.8603333333333334,
+      "fit_reasons": [
+        "LLM API retrieval suggested this figure for this scenario.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [],
+      "controversy_risk": 0.32,
+      "distillability_score": 0.42,
+      "evidence_availability": 0.36,
+      "complementarity_tags": []
+    },
+    {
+      "name": "邓紫棋",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "华语流行歌手与制作人，具粤语背景，电子流行制作成熟。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "电子流行与粤语演绎",
+        "music",
+        "culture_fusion",
+        "pop"
+      ],
+      "verified_human": true,
+      "fit_score": 0.6803333333333333,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.8603333333333334,
+      "fit_reasons": [
+        "LLM API retrieval suggested this figure for this scenario.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [],
+      "controversy_risk": 0.32,
+      "distillability_score": 0.42,
+      "evidence_availability": 0.36,
+      "complementarity_tags": []
+    },
+    {
+      "name": "黄耀明",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "香港歌手、前达明一派主唱，长期探索电子、合成器与粤语表达。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "music",
+        "culture_fusion"
+      ],
+      "verified_human": true,
+      "fit_score": 0.6566666666666666,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.8366666666666667,
+      "fit_reasons": [
+        "LLM dynamic fallback candidate.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [],
+      "controversy_risk": 0.35,
+      "distillability_score": 0.4,
+      "evidence_availability": 0.35,
+      "complementarity_tags": []
+    }
+  ],
+  "rejected": [
+    {
+      "name": "梁翘柏",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "香港音乐制作人，擅长电子、摇滚与流行的混合编曲。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "music",
+        "culture_fusion"
+      ],
+      "verified_human": true,
+      "fit_score": 0.6566666666666666,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.8366666666666667,
+      "fit_reasons": [
+        "LLM dynamic fallback candidate.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [
+        "Lower cognitive coverage gain than selected members."
+      ],
+      "controversy_risk": 0.35,
+      "distillability_score": 0.4,
+      "evidence_availability": 0.35,
+      "complementarity_tags": []
+    },
+    {
+      "name": "林夕",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "香港著名填词人，作品常融入古典意象与城市情绪。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "music",
+        "culture_fusion"
+      ],
+      "verified_human": true,
+      "fit_score": 0.6566666666666666,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.8366666666666667,
+      "fit_reasons": [
+        "LLM dynamic fallback candidate.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [
+        "Lower cognitive coverage gain than selected members."
+      ],
+      "controversy_risk": 0.35,
+      "distillability_score": 0.4,
+      "evidence_availability": 0.35,
+      "complementarity_tags": []
+    },
+    {
+      "name": "黄伟文",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "香港填词人及创意人，擅长时尚化、视觉化的文本表达。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "music",
+        "culture_fusion"
+      ],
+      "verified_human": true,
+      "fit_score": 0.6566666666666666,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.8366666666666667,
+      "fit_reasons": [
+        "LLM dynamic fallback candidate.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [
+        "Lower cognitive coverage gain than selected members."
+      ],
+      "controversy_risk": 0.35,
+      "distillability_score": 0.4,
+      "evidence_availability": 0.35,
+      "complementarity_tags": []
+    },
+    {
+      "name": "王家卫",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "香港电影导演，其作品塑造了高辨识度的东方都市霓虹美学。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "culture_fusion",
+        "music"
+      ],
+      "verified_human": true,
+      "fit_score": 0.6566666666666666,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.8366666666666667,
+      "fit_reasons": [
+        "LLM dynamic fallback candidate.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [
+        "Lower cognitive coverage gain than selected members."
+      ],
+      "controversy_risk": 0.35,
+      "distillability_score": 0.4,
+      "evidence_availability": 0.35,
+      "complementarity_tags": []
+    },
+    {
+      "name": "陆扬",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "中国当代艺术家，作品常结合数字身体、宗教符号与赛博视觉。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "中式符号赛博化视觉",
+        "visual_art",
+        "culture_fusion",
+        "digital"
+      ],
+      "verified_human": true,
+      "fit_score": 0.48033333333333333,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.6603333333333333,
+      "fit_reasons": [
+        "LLM API retrieval suggested this figure for this scenario.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [
+        "Lower cognitive coverage gain than selected members."
+      ],
+      "controversy_risk": 0.32,
+      "distillability_score": 0.42,
+      "evidence_availability": 0.36,
+      "complementarity_tags": []
+    },
+    {
+      "name": "杜可风",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "国际知名摄影指导，深度参与香港都市夜景与霓虹影像风格的建立。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "culture_fusion",
+        "music"
+      ],
+      "verified_human": true,
+      "fit_score": 0.6566666666666666,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.6566666666666666,
+      "fit_reasons": [
+        "LLM dynamic fallback candidate."
+      ],
+      "anti_fit_reasons": [
+        "Lower cognitive coverage gain than selected members."
+      ],
+      "controversy_risk": 0.35,
+      "distillability_score": 0.4,
+      "evidence_availability": 0.35,
+      "complementarity_tags": []
+    },
+    {
+      "name": "谢霆锋",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "香港歌手、创作人，早期粤语摇滚与电子元素融合明显。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "music",
+        "culture_fusion"
+      ],
+      "verified_human": true,
+      "fit_score": 0.6566666666666666,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.6566666666666666,
+      "fit_reasons": [
+        "LLM dynamic fallback candidate."
+      ],
+      "anti_fit_reasons": [
+        "Lower cognitive coverage gain than selected members."
+      ],
+      "controversy_risk": 0.35,
+      "distillability_score": 0.4,
+      "evidence_availability": 0.35,
+      "complementarity_tags": []
+    },
+    {
+      "name": "陈冠希",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "香港艺人与潮流品牌主理人，长期推动华人街头文化与国际潮流融合。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "culture_fusion",
+        "music"
+      ],
+      "verified_human": true,
+      "fit_score": 0.6566666666666666,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.6566666666666666,
+      "fit_reasons": [
+        "LLM dynamic fallback candidate."
+      ],
+      "anti_fit_reasons": [
+        "Lower cognitive coverage gain than selected members."
+      ],
+      "controversy_risk": 0.35,
+      "distillability_score": 0.4,
+      "evidence_availability": 0.35,
+      "complementarity_tags": []
+    },
+    {
+      "name": "方大同",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "香港唱作人，擅长将华语语境与现代律动、电子听感融合。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "music",
+        "culture_fusion"
+      ],
+      "verified_human": true,
+      "fit_score": 0.6566666666666666,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.6566666666666666,
+      "fit_reasons": [
+        "LLM dynamic fallback candidate."
+      ],
+      "anti_fit_reasons": [
+        "Lower cognitive coverage gain than selected members."
+      ],
+      "controversy_risk": 0.35,
+      "distillability_score": 0.4,
+      "evidence_availability": 0.35,
+      "complementarity_tags": []
+    },
+    {
+      "name": "陈辉阳",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "香港作曲/监制，塑造过大量经典粤语流行听感。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "港式和声与编曲审美",
+        "music",
+        "production",
+        "cantopop"
+      ],
+      "verified_human": true,
+      "fit_score": 0.4053333333333333,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.5853333333333333,
+      "fit_reasons": [
+        "LLM API retrieval suggested this figure for this scenario.",
+        "LLM API ranking marked this candidate as high relevance."
+      ],
+      "anti_fit_reasons": [
+        "Lower cognitive coverage gain than selected members."
+      ],
+      "controversy_risk": 0.32,
+      "distillability_score": 0.42,
+      "evidence_availability": 0.36,
+      "complementarity_tags": []
+    },
+    {
+      "name": "刘慈欣",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "中国科幻作家，擅长宏大技术想象与文明冲突叙事。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "科幻世界观设定",
+        "literature",
+        "culture_fusion",
+        "sci_fi"
+      ],
+      "verified_human": true,
+      "fit_score": 0.48033333333333333,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.48033333333333333,
+      "fit_reasons": [
+        "LLM API retrieval suggested this figure for this scenario."
+      ],
+      "anti_fit_reasons": [
+        "Lower cognitive coverage gain than selected members."
+      ],
+      "controversy_risk": 0.32,
+      "distillability_score": 0.42,
+      "evidence_availability": 0.36,
+      "complementarity_tags": []
+    },
+    {
+      "name": "陈奕迅",
+      "name_native": null,
+      "wikidata_id": null,
+      "wikipedia_url": null,
+      "description": "香港代表性粤语歌手，作品覆盖流行、电子与实验性表达。",
+      "era": "modern",
+      "region": "global",
+      "domains": [
+        "music"
+      ],
+      "verified_human": true,
+      "fit_score": 0.37333333333333335,
+      "anti_fit_penalty": 0.0,
+      "final_score": 0.37333333333333335,
+      "fit_reasons": [
+        "LLM dynamic fallback candidate."
+      ],
+      "anti_fit_reasons": [
+        "Lower cognitive coverage gain than selected members."
+      ],
+      "controversy_risk": 0.35,
+      "distillability_score": 0.4,
+      "evidence_availability": 0.35,
+      "complementarity_tags": []
+    }
+  ],
+  "selection_rationale": [
+    "Selection optimized cognitive coverage + complementarity + conflict productivity.",
+    "Anti-popularity bias applied when fit scores were already adequate.",
+    "Thematic fit remained a hard prerequisite before diversity bonuses.",
+    "LLM retrieval injected 8 additional scenario-relevant candidate(s).",
+    "LLM API ranking rationale: 麦浚龙: 擅长暗黑、电影化与概念专辑叙事，最贴近“中式赛博朋克+粤语歌”的整体世界观搭建。 | 黄耀明: 长期探索电子/合成器与粤语人文表达，能把冷感未来声场与本土语感结合。 | 林夕: 可将古典意象、城市情绪与技术异化并置，适合写“古意x霓虹”的高密度文本。",
+    "No explicit user include list: enforced minimum 4 members across at least 4 cognitive aspects when possible."
+  ],
+  "coverage_map": {
+    "thematic-fit": [
+      "麦浚龙",
+      "张叔平"
+    ],
+    "execution": [
+      "麦浚龙",
+      "张叔平"
+    ],
+    "risk": [
+      "麦浚龙",
+      "张叔平"
+    ],
+    "long-term-value": [
+      "麦浚龙",
+      "张叔平"
+    ],
+    "ethics": [
+      "麦浚龙",
+      "张叔平"
+    ]
+  },
+  "requested_team_size": 6,
+  "actual_team_size": 6
+}

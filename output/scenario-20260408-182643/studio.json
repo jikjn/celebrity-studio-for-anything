@@ -1,0 +1,105 @@
+{
+  "scenario_id": "scenario-20260408-182643",
+  "leader": "studio-leader",
+  "members": [
+    {
+      "agent_id": "agent-01-麦浚龙",
+      "celebrity_name": "麦浚龙",
+      "skill_slug": "麦浚龙",
+      "role_in_studio": "Worldbuilder: Neon-Noir Cantonese Storyworld",
+      "speaking_style": "Melodic-pragmatic, user-ear first",
+      "challenge_style": "Challenge singability and memory retention risks first.",
+      "provider_id": "default",
+      "session_id": "麦浚龙-agent-01-麦浚龙"
+    },
+    {
+      "agent_id": "agent-02-张叔平",
+      "celebrity_name": "张叔平",
+      "skill_slug": "张叔平",
+      "role_in_studio": "Taste Curator: Sino-Cyberpunk Aesthetic Coherence",
+      "speaking_style": "Atmospheric and conflict-aware",
+      "challenge_style": "Challenge mood-world mismatch and weak narrative conflict.",
+      "provider_id": "default",
+      "session_id": "张叔平-agent-02-张叔平"
+    },
+    {
+      "agent_id": "agent-03-黄霑",
+      "celebrity_name": "黄霑",
+      "skill_slug": "黄霑",
+      "role_in_studio": "Cultural Spine: Cantonese Poetics and Classical Allusion",
+      "speaking_style": "Melodic-pragmatic, user-ear first",
+      "challenge_style": "Challenge singability and memory retention risks first.",
+      "provider_id": "default",
+      "session_id": "黄霑-agent-03-黄霑"
+    },
+    {
+      "agent_id": "agent-04-谭盾",
+      "celebrity_name": "谭盾",
+      "skill_slug": "谭盾",
+      "role_in_studio": "Systems Thinker: East-West Orchestration Architecture",
+      "speaking_style": "Melodic-pragmatic, user-ear first",
+      "challenge_style": "Challenge singability and memory retention risks first.",
+      "provider_id": "default",
+      "session_id": "谭盾-agent-04-谭盾"
+    },
+    {
+      "agent_id": "agent-05-邓紫棋",
+      "celebrity_name": "邓紫棋",
+      "skill_slug": "邓紫棋",
+      "role_in_studio": "Hook Architect: Contemporary Canto Pop Topline",
+      "speaking_style": "Melodic-pragmatic, user-ear first",
+      "challenge_style": "Challenge singability and memory retention risks first.",
+      "provider_id": "default",
+      "session_id": "邓紫棋-agent-05-邓紫棋"
+    },
+    {
+      "agent_id": "agent-06-黄耀明",
+      "celebrity_name": "黄耀明",
+      "skill_slug": "黄耀明",
+      "role_in_studio": "Humanist: Urban Alienation and Emotional Truth",
+      "speaking_style": "Melodic-pragmatic, user-ear first",
+      "challenge_style": "Challenge singability and memory retention risks first.",
+      "provider_id": "default",
+      "session_id": "黄耀明-agent-06-黄耀明"
+    }
+  ],
+  "reserve_members": [
+    {
+      "agent_id": "reserve-01-梁翘柏",
+      "celebrity_name": "梁翘柏",
+      "skill_slug": "梁翘柏",
+      "role_in_studio": "Reserve Perspective",
+      "speaking_style": "Concise analytical",
+      "challenge_style": "Focus on anti-fit and edge cases",
+      "provider_id": "default",
+      "session_id": ""
+    },
+    {
+      "agent_id": "reserve-02-林夕",
+      "celebrity_name": "林夕",
+      "skill_slug": "林夕",
+      "role_in_studio": "Reserve Perspective",
+      "speaking_style": "Concise analytical",
+      "challenge_style": "Focus on anti-fit and edge cases",
+      "provider_id": "default",
+      "session_id": ""
+    },
+    {
+      "agent_id": "reserve-03-黄伟文",
+      "celebrity_name": "黄伟文",
+      "skill_slug": "黄伟文",
+      "role_in_studio": "Reserve Perspective",
+      "speaking_style": "Concise analytical",
+      "challenge_style": "Focus on anti-fit and edge cases",
+      "provider_id": "default",
+      "session_id": ""
+    }
+  ],
+  "discussion_protocol": "Free-salon dynamic exchange. Style hint: 像同桌沙龙一样自由交流，允许质疑、支持、反驳、补充，不走模板话术，优先真实观点碰撞。",
+  "max_rounds": 6,
+  "stop_conditions": [
+    "Open Studio Field stages completed with at least one free-salon round.",
+    "Emerging centers were surfaced before convergence.",
+    "At least one conditional recommendation route is generated."
+  ]
+}

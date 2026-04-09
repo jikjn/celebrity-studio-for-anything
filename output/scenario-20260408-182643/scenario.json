@@ -1,0 +1,42 @@
+{
+  "scenario_id": "scenario-20260408-182643",
+  "raw_user_query": "我想弄一个中国风与赛博朋克交织的粤语歌",
+  "language": "zh-CN",
+  "domain_tags": [
+    "music",
+    "culture_fusion"
+  ],
+  "task_types": [
+    "analysis"
+  ],
+  "target_user_profile": [],
+  "desired_output": [
+    "consensus_map",
+    "disagreement_map",
+    "conditional_plan"
+  ],
+  "constraints": [],
+  "evaluation_axes": [
+    "thematic-fit",
+    "execution",
+    "risk",
+    "long-term-value",
+    "ethics"
+  ],
+  "capability_vector": {
+    "strategy": 0.55,
+    "creativity": 0.88,
+    "pedagogy": 0.35,
+    "operational_execution": 0.45,
+    "realism": 0.55,
+    "taste": 0.85,
+    "persuasion": 0.72,
+    "systems_thinking": 0.7,
+    "ethics": 0.3,
+    "mass_appeal": 0.8,
+    "elite_competition": 0.3,
+    "uncertainty_handling": 0.65
+  },
+  "reasoning_summary": "Heuristic parser used as fallback.",
+  "created_at": "2026-04-08T18:26:43+00:00"
+}
