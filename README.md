@@ -16,7 +16,7 @@
 </p>
 
 <p>
-  <img src="docs/assets/mindforge-logo.png" alt="MindForge Studio Logo" width="180">
+  <img src="docs/assets/mindforge-logo.png" alt="MindForge Studio Logo" width="300">
 </p>
 
 </div>
