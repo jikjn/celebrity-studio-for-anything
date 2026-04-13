@@ -4,7 +4,7 @@
 
 # MindForge Studio
 
-### 面向真实决策的开源多 Agent 讨论工作台
+### 面向多名人人格的开源多 Agent 讨论工作台
 
 <p>
   <img src="https://img.shields.io/badge/python-3.10%2B-blue" alt="Python">
