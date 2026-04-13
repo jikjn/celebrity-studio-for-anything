@@ -19,14 +19,29 @@
 
 </div>
 
-MindForge Studio is a multi-agent discussion studio for decisions that benefit from disagreement, synthesis, and concrete next steps.
-Instead of producing a single answer from a rigid template, it lets multiple agents challenge, support, refine, and converge on an actionable conclusion.
+MindForge Studio is not a system that just grabs a few AI roles and lets them chat.
+It first distills the skills that make real celebrities, creators, founders, thinkers, athletes, and historical figures valuable, then builds a scenario-specific cast whose strengths actually fit the problem.
+
+Users provide a situation, not a vague role label.
+Instead of defaulting to abstract personas like "teacher", "advisor", "director", or "analyst", the system re-selects people for each use case: Zhang Xuefeng and Yu Minhong for education planning, Lin Xi and Jay Chou for songwriting, or a different lineup for brand strategy, communication, investing, negotiation, education, sports training, creative work, or historical judgment.
+
+Just as important, the discussion is not a stack of isolated agent opinions pasted into one report.
+It runs more like a salon-style deep research session: one voice proposes a thesis, another questions the premise, another adds cases, another pushes back from a different era or field, and the group gradually converges on a more actionable conclusion.
+
+## What Makes It Different
+
+- Distills concrete skills from real people instead of relying on generic role templates
+- Dynamically selects a cast for each scenario, so every discussion is reassembled around the actual problem
+- Encourages challenge, support, counterargument, and synthesis instead of parallel monologues
+- Produces a conclusion that feels closer to a real decision process, not just polished wording
 
 ## What It Does
 
-- Runs a free-form salon-style multi-agent discussion instead of a fixed workflow
+- Distills discussion-ready skills from real people instead of applying fixed persona labels
+- Dynamically selects public figures whose strengths actually match the scenario
+- Runs a free-form salon-style deep discussion instead of a fixed workflow
 - Supports configurable team size, speaking turns, turn length, and interaction style
-- Produces both a final synthesis and per-agent takeaways
+- Produces both a final synthesis and per-agent takeaways instead of just stitching together parallel opinions
 - Works through a local Web UI and a CLI
 - Includes an optional public portal and an optional video-generation pipeline
 
@@ -129,11 +144,11 @@ You can configure these through the Web UI or runtime JSON:
 
 ## How It Works
 
-1. Parse the scenario.
-2. Retrieve candidate people or perspectives.
-3. Select a team based on coverage, complementarity, and productive conflict.
-4. Distill role-specific skills.
-5. Run the studio discussion.
+1. Parse the scenario and identify the kind of judgment it actually requires.
+2. Retrieve candidate people and their distilled skill profiles.
+3. Select a team based on skill fit, coverage, complementarity, and productive conflict.
+4. Turn those skills into discussion-ready agent setups.
+5. Run the studio discussion as a salon-style multi-agent exchange.
 6. Synthesize the final result and extract agent-level takeaways.
 7. Save JSON artifacts and a Markdown report.
 
