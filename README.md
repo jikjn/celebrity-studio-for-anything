@@ -4,7 +4,7 @@
 
 # MindForge Studio
 
-### Open-source Multi-Agent Studio for Real-World Decisions
+### Open-source Celebrities Studio for Real-World Decisions
 
 <p>
   <img src="https://img.shields.io/badge/python-3.10%2B-blue" alt="Python">
