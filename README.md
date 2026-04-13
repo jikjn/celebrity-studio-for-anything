@@ -42,7 +42,6 @@ It runs more like a salon-style deep research session: one voice proposes a thes
 - Runs a free-form salon-style deep discussion instead of a fixed workflow
 - Supports configurable team size, speaking turns, turn length, and interaction style
 - Produces both a final synthesis and per-agent takeaways instead of just stitching together parallel opinions
-- Works through a local Web UI and a CLI
 - Includes an optional public portal and an optional video-generation pipeline
 
 ## Example Scenarios
